@@ -98,7 +98,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-600">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="/InternetExplorer_1.png" alt="Internet Explorer" class="w-full rounded-lg shadow-sm">
+              <img src="./InternetExplorer_1.png" alt="Internet Explorer" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
               <h3 class="text-2xl font-bold text-blue-700 mb-2">Microsoft Internet Explorer (IE)</h3>
@@ -112,7 +112,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-red-600">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="/firefox.png" alt="Mozilla Firefox" class="w-full rounded-lg shadow-sm">
+              <img src="./firefox.png" alt="Mozilla Firefox" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
               <h3 class="text-2xl font-bold text-red-700 mb-2">Mozilla Firefox</h3>
@@ -130,7 +130,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-500">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="/googleChrome.png" alt="Google Chrome" class="w-full rounded-lg shadow-sm">
+              <img src="./googleChrome.png" alt="Google Chrome" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
               <h3 class="text-2xl font-bold text-blue-600 mb-2">Google Chrome</h3>
@@ -148,7 +148,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-red-500">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="/opera.png" alt="Opera" class="w-full rounded-lg shadow-sm">
+              <img src="./opera.png" alt="Opera" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
               <h3 class="text-2xl font-bold text-red-600 mb-2">Opera</h3>
@@ -169,7 +169,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-gray-400">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="/safari512px.png" alt="Safari" class="w-full rounded-lg shadow-sm">
+              <img src="./safari512px.png" alt="Safari" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
               <h3 class="text-2xl font-bold text-gray-700 mb-2">Safari</h3>
