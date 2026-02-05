@@ -10,5 +10,5 @@ export default defineConfig({
     outDir: '../dist',
   },
   // 針對 GitHub Pages 的路徑設定，替換為您的儲存庫名稱
-  base: '/', 
+  base: '/webhtmlcss/', 
 })
