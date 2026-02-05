@@ -90,60 +90,86 @@ document.querySelector('#app').innerHTML = `
 
     <!-- Popular Browsers -->
     <section class="mb-16 animate-fade-in-up" style="animation-delay: 0.3s">
+
       <h2 class="text-4xl font-bold text-purple-600 mb-8 flex items-center">
         <span class="w-2 h-2 bg-purple-600 rounded-full mr-4"></span>
         常用的瀏覽器
       </h2>
-      <div class="space-y-6">
-        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-600">
+
+        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-500">
+            <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
+                <div class="w-full md:w-32 flex-shrink-0">
+                    <img src="./googleChrome.png" alt="Google Chrome" class="w-full rounded-lg shadow-sm">
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-2 text-left">Google Chrome</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4 text-left">
+                        由 Google 所開發的網頁瀏覽器，2008 年 6 月被評選為最佳 Windows 應用程式。它以<span class="font-bold">穩定性、速度和安全性</span>，及簡單且有效率的使用介面作為目標。
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-2 text-left">
+                        配合 Google 拓展網路服務的版圖，它的使用率和重要性也逐步增加。
+                    </p>
+                    <p class="text-sm text-gray-500 text-left">官方網站：http://www.google.com/chrome</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-cyan-600">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
-              <img src="./InternetExplorer_1.png" alt="Internet Explorer" class="w-full rounded-lg shadow-sm">
+              <img src="./microsoftedge.png" alt="Microsoft Edge" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
-              <h3 class="text-2xl font-bold text-blue-700 mb-2">Microsoft Internet Explorer (IE)</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Internet Explorer，簡稱 IE，Microsoft 所推出的上網瀏覽軟體。微軟採用內建在作業系統的策略，將 Netscape Navigator 打敗，爭得市場佔有率。但在 6.0 版獨佔市場多年後，未求更新改進，也造成許多安全性的問題，使得許多功能更好用、安全性更加強、更符合 W3C 標準的瀏覽器得以出頭。
+              <h3 class="text-2xl font-bold text-cyan-700 mb-2 text-left">Microsoft Edge</h3>
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">
+                Microsoft Edge 是微軟推出的新一代瀏覽器，基於 Chromium 開源引擎開發。相比傳統的 Internet Explorer，Edge 提供了更好的性能、安全性和相容性支援。
               </p>
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">
+                Edge 於 2015 年隨 Windows 10 推出，2020 年後推出跨平台版本，支援 Windows、macOS、Linux 及行動設備。它強調隱私保護、快速瀏覽速度和與 Microsoft 生態系統的整合。
+              </p>
+              <p class="text-sm text-gray-500 text-left">官方網站：https://www.microsoft.com/edge/</p>
             </div>
           </div>
         </div>
 
+
+         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-gray-400">
+          <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
+            <div class="w-full md:w-32 flex-shrink-0">
+              <img src="./safari512px.png" alt="Safari" class="w-full rounded-lg shadow-sm">
+            </div>
+            <div class="flex-1">
+              <h3 class="text-2xl font-bold text-gray-700 mb-2 text-left">Safari</h3>
+              <p class="text-gray-700 leading-relaxed text-left">
+                Safari 是由 Apple 公司所開發的瀏覽器，內建於 Mac OS X，也是 iPhone、iPod Touch 和 iPad 的指定瀏覽器，2007 年推出支援 Windows 版本。
+              </p>
+              <p class="text-sm text-gray-500 mt-2 text-left">官方網站：http://www.apple.com/tw/safari</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-red-600">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
             <div class="w-full md:w-32 flex-shrink-0">
               <img src="./firefox.png" alt="Mozilla Firefox" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
-              <h3 class="text-2xl font-bold text-red-700 mb-2">Mozilla Firefox</h3>
-              <p class="text-gray-700 leading-relaxed mb-2">
+              <h3 class="text-2xl font-bold text-red-700 mb-2 text-left">Mozilla Firefox</h3>
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">
                 Mozilla Firefox，中文簡稱<span class="font-bold">火狐</span>，由 Mozilla 基金會與社群共同開發的瀏覽器。它是開放原始碼的自由軟體，支援多種作業系統平台，並且有七十種以上的語言可以選擇安裝。
               </p>
-              <p class="text-gray-700 leading-relaxed mb-2">
-                它具備許多突出的功能，提供了許多上網瀏覽的全新體驗，因此在 2004 年推出後，便成了網路上最熱門的瀏覽軟體。
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">它具備許多突出的功能，提供了許多上網瀏覽的全新體驗，因此在 2004 年推出後，便成了網路上最熱門的瀏覽軟體。
               </p>
-              <p class="text-sm text-gray-500">官方網站：http://moztw.org/</p>
+              <p class="text-sm text-gray-500 text-left">官方網站：http://moztw.org/</p>
             </div>
           </div>
         </div>
 
-        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-500">
-          <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
-            <div class="w-full md:w-32 flex-shrink-0">
-              <img src="./googleChrome.png" alt="Google Chrome" class="w-full rounded-lg shadow-sm">
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl font-bold text-blue-600 mb-2">Google Chrome</h3>
-              <p class="text-gray-700 leading-relaxed mb-4">
-                由 Google 所開發的網頁瀏覽器，2008 年 6 月被評選為最佳 Windows 應用程式。它以<span class="font-bold">穩定性、速度和安全性</span>，及簡單且有效率的使用介面作為目標。
-              </p>
-              <p class="text-gray-700 leading-relaxed mb-2">
-                配合 Google 拓展網路服務的版圖，它的使用率和重要性也逐步增加。
-              </p>
-              <p class="text-sm text-gray-500">官方網站：http://www.google.com/chrome</p>
-            </div>
-          </div>
-        </div>
 
         <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-red-500">
           <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
@@ -151,36 +177,59 @@ document.querySelector('#app').innerHTML = `
               <img src="./opera.png" alt="Opera" class="w-full rounded-lg shadow-sm">
             </div>
             <div class="flex-1">
-              <h3 class="text-2xl font-bold text-red-600 mb-2">Opera</h3>
-              <p class="text-gray-700 leading-relaxed mb-2">
+              <h3 class="text-2xl font-bold text-red-600 mb-2 text-left">Opera</h3>
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">
                 Opera 是由挪威最大的電信公司 Telenor 的研究小組所開發，因其優良的多頁面瀏覽特性、快捷列和工具列設定而聞名，曾號稱是地球上最快的瀏覽器。
               </p>
-              <p class="text-gray-700 leading-relaxed mb-2">
+              <p class="text-gray-700 leading-relaxed mb-2 text-left">
                 Opera 也創造了很多瀏覽器的新功能，推動其他瀏覽器的跟進發展。
               </p>
-              <p class="text-gray-700 leading-relaxed font-medium mb-2">
+              <p class="text-gray-700 leading-relaxed font-medium mb-2 text-left">
                 2009 年台灣網友推出了 Opera 台灣版，命名為「<span class="text-red-600 font-bold">三太子</span>」(Nalakuvara)，獲 Opera 官方認證。
               </p>
-              <p class="text-sm text-gray-500">官方網站：http://www.opera.com</p>
+              <p class="text-sm text-gray-500 text-left">官方網站：http://www.opera.com</p>
             </div>
           </div>
         </div>
 
-        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-gray-400">
-          <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
-            <div class="w-full md:w-32 flex-shrink-0">
-              <img src="./safari512px.png" alt="Safari" class="w-full rounded-lg shadow-sm">
+       
+
+        <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-yellow-500">
+            <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
+                <div class="w-full md:w-32 flex-shrink-0 flex items-center justify-center">
+                    <div class="text-5xl"><img src="./brave.png" alt="Brave" class="w-full rounded-lg shadow-sm"></div>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-2xl font-bold text-yellow-700 mb-2 text-left">Brave</h3>
+                        <p class="text-gray-700 leading-relaxed text-left">
+                            Brave 是一款以隱私為重點的瀏覽器，基於 Chromium 引擎開發，預設阻擋追蹤器與廣告，提供更快且更私密的瀏覽體驗。它也內建強化的安全與隱私設定，以及選擇性廣告與獎勵機制。
+                        </p>
+                        <p class="text-sm text-gray-500 mt-2 text-left">官方網站：https://brave.com/</p>
+                </div>
             </div>
-            <div class="flex-1">
-              <h3 class="text-2xl font-bold text-gray-700 mb-2">Safari</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Safari 是由 Apple 公司所開發的瀏覽器，內建於 Mac OS X，也是 iPhone、iPod Touch 和 iPad 的指定瀏覽器，2007 年推出支援 Windows 版本。
-              </p>
-              <p class="text-sm text-gray-500 mt-2">官方網站：http://www.apple.com/tw/safari</p>
-            </div>
-          </div>
         </div>
+
+        <div class="space-y-6">
+            <div class="space-y-6 text-left">
+                <div class="bg-white rounded-xl shadow-md hover-lift p-6 border-t-4 border-blue-600">
+                    <div class="flex flex-col md:flex-row gap-6 items-start md:items-center">
+                        <div class="w-full md:w-32 flex-shrink-0">
+                            <img src="./InternetExplorer_1.png" alt="Internet Explorer" class="w-full rounded-lg shadow-sm">
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-blue-700 mb-2 text-left">Microsoft Internet Explorer (IE)</h3>
+                            <p class="text-gray-700 leading-relaxed text-left">
+                            Internet Explorer，簡稱 IE，Microsoft 所推出的上網瀏覽軟體。微軟採用內建在作業系統的策略，將 Netscape Navigator 打敗，爭得市場佔有率。但在 6.0 版獨佔市場多年後，未求更新改進，也造成許多安全性的問題，使得許多功能更好用、安全性更加強、更符合 W3C 標準的瀏覽器得以出頭。
+                            目前已經停止支援，建議使用者改用 Microsoft Edge 或其他現代瀏覽器以獲得更好的安全性和性能。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+          </div>
       </div>
+
+
+      
     </section>
 
     <!-- Browser Differences -->
@@ -211,33 +260,4 @@ document.querySelector('#app').innerHTML = `
     </footer>
     </div>
     </div>
-  \`
-
-  // Mobile nav toggle + sticky shadow on scroll
-  const _navToggle = document.getElementById('nav-toggle')
-  const _navMobile = document.getElementById('nav-mobile')
-  const _siteNav = document.getElementById('site-nav')
-  if (_navToggle && _navMobile) {
-    _navToggle.addEventListener('click', () => {
-      const isOpen = _navMobile.classList.toggle('hidden')
-      _navMobile.classList.toggle('flex')
-      if (!isOpen) _navMobile.classList.add('open')
-      else _navMobile.classList.remove('open')
-    })
-    _navMobile.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-      _navMobile.classList.add('hidden')
-      _navMobile.classList.remove('flex')
-      _navMobile.classList.remove('open')
-    }))
-  }
-
-  // add shadow when scrolling
-  if (_siteNav) {
-    const onScroll = () => {
-      if (window.scrollY > 12) _siteNav.classList.add('site-nav-shadow')
-      else _siteNav.classList.remove('site-nav-shadow')
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-  }
 `
