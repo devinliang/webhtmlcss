@@ -9,6 +9,7 @@ document.querySelector('#app').innerHTML = `
         <div class="flex items-center gap-4">
           <a href="index.html" class="px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100">認識網際網路</a>
           <a href="www.html" class="hidden md:inline-flex px-4 py-2 rounded-md text-sm font-medium text-white bg-green-600">全球資訊網 WWW</a>
+          <a href="browse.html" class="hidden md:inline-flex px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100">瀏覽器 Browser</a>
           <a href="#" class="hidden md:inline-flex px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100">更多頁面</a>
         </div>
         <button id="nav-toggle" class="md:hidden p-2 rounded-md bg-white/30">
@@ -18,6 +19,7 @@ document.querySelector('#app').innerHTML = `
       <div id="nav-mobile" class="nav-mobile md:hidden mt-3 hidden flex-col items-center gap-2">
         <a href="index.html" class="w-full text-center px-4 py-2 rounded-md bg-gray-100 text-gray-800">認識網際網路</a>
         <a href="www.html" class="w-full text-center px-4 py-2 rounded-md bg-green-600 text-white">全球資訊網 WWW</a>
+        <a href="browse.html" class="w-full text-center px-4 py-2 rounded-md bg-gray-100 text-gray-800">瀏覽器 Browser</a>
         <a href="#" class="w-full text-center px-4 py-2 rounded-md bg-gray-100 text-gray-800">更多頁面</a>
       </div>
     </nav>

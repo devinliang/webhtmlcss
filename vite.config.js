@@ -14,6 +14,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'src/index.html'),
         www: resolve(__dirname, 'src/www.html'),
+        browse: resolve(__dirname, 'src/browse.html'),
       },
     },
   },
